@@ -1,22 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
+p {
+ 	font-family: 'PT Sans', sans-serif;	
+ }
 
-	<title>Tesla</title>
+a {
+	font-family: 'PT Sans', sans-serif;	
+ }
 
-	<meta charset="UTF-8">
-	<meta name="description" content="Free Web tutorials">
-	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
-	<meta name="author" content="Hege Refsnes">
+#bloc1 {
+	background-image: url(PICTURES/hero-bg.jpg);
+	background-size: cover;
 
-	<link rel="stylesheet" type="text/css" href="tesla.css">
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
 
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+ #header>img {
+ 	float: left;
+ }
 
-</head>
+ #header ul {
+	float: right;
+	overflow: hidden;
 
-<body>
-The content of the document......
-</body>
+	vertical-align: middle;
+	line-height: 128px;
+ }
 
-</html>
+#header ul, li {
+	float: left;
+ 	display: inline;
+ 	text-decoration: none;
+ 	list-style: none;
+
+ 	margin: 0 20px;
+ }
+
+#header ul, li, a{
+	float: right;
+	font-family: 'PT Sans', sans-serif;
+ 	font-size: 20px;
+ 	color: #161616;
+ 	text-decoration: none;
+}
+
+.car {
+ 	margin-top: 128px;
+ 	margin-right: 15%;
+ 	padding-bottom: 160px;
+
+ 	float: right;
+
+ 	width: 20%;
+ 	background: url("PICTURES/bullets_bottom.png") no-repeat bottom left;
+ }
+
+.car h1{
+	font-family: 'PT Sans', sans-serif;	
+ 	font-size: 36px;
+ 	color: white;
+	font-weight: bold;
+}
+
+.car p{
+	margin: 20px 0;
+ 	color:#cdcdcd;
+}
+
+.car a{
+	font-size: 21px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+
+	border: 3px solid;
+	border-radius: 5px;
+
+	padding: 15px 20px;
+
+	float: left;
+
+	display: inline-block;
+}
+
+.car img{
+	float: left; 
+}
