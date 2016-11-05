@@ -43,7 +43,7 @@ a {
 #header ul, li, a{
 	font-family: 'PT Sans', sans-serif;
  	font-size: 18px;
- 	color: #161616;
+ 	color: #adadad;
  	text-decoration: none;
 }
 
@@ -51,9 +51,37 @@ a {
 	float: left;
 }
 
+#header a:hover{
+	color: white;
+}
+
 #content {
 	overflow: hidden;
 	margin-top: 170px;
+}
+
+
+#switch{
+	position: absolute;
+	width: 32px;
+	height: 196px;
+
+	margin-top: 420px;
+	margin-left: 50px;
+}
+
+.circle {
+	width: 16px;
+	height: 16px;
+
+	border-radius: 100%;
+	background-color: #9b9caa;
+	margin-bottom: 20px;
+}
+
+.circle div:hover{
+	border: 1px solid white;
+	background-color: none;
 }
 
 .car {
@@ -95,6 +123,13 @@ a {
 	float: left;
 
 	display: inline-block;
+}
+
+.car a:hover{
+	background-color: white;
+	color: #adadad;
+
+	border-color: white;
 }
 
 .car img{
@@ -221,20 +256,36 @@ a {
 	height: 290px;
 
 	background-color: #ffffff;
+	position: relative;
+}
+
+#join form{
+	position: absolute;
+	text-align: center;
+	margin-top: 80px;
+	left: 50%;
+	margin-left: -305.5px;
 }
 
 #join input{
 	width: 520px;
 	height: 90px;
 
+	margin-bottom: 33px;
+
 	background-color: #23242e;
 	border: 0px;
 	border-radius: 5px;
 
-	margin-left: -260px;
-	left: 50%;
+	color: white;
+	font-size: 21px; 
+	font-weight: bold;
+}
 
-	position: absolute;
+#join p{
+	font-style: italic;
+	color: #62647d;
+	text-align: center;
 }
 
 #footer {
@@ -242,4 +293,11 @@ a {
 	height: 120px;
 
 	background-color: #62647d;
+}
+
+#footer img{
+	position: absolute;
+	margin-top: 34px;
+	left: 50%;
+	margin-left: -34px;
 }
